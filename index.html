@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <main>
+
+    <div class="main-container">
+
+      <div class="left-container">
+        <div class="front card-body">
+          <div class="logo"><img src="images/card-logo.svg" alt="card logo"></div>
+
+            <div class="info">
+              <div class="number"> <h2> <span> 0000</span>  <span> 0000 </span> <span> 0000</span> <span> 0000</span></h2></div>
+              <div class="name">
+                <p id="UserName">JANE APPLESEED</p>
+                <p id="ExpiryDate">00/00</p>
+              </div>
+            </div>
+        </div>
+      <div class="back card-body">
+        <div class="cv">
+          000
+        </div>
+      </div>
+
+    </div>
+
+    <div class="right-container">
+
+      <div class="container">
+        <form action="#" id="myForm">
+
+          <div class="form-group">
+            <label for="name">  Cardholder Name</label>
+            <input type="text" name="name" id="name" placeholder="  e.g. Jane Appleseed">
+            <div class="error" ></div>
+
+
+          </div>
+          <div class="form-group">
+            <label for="number">    Card Number</label>
+            <input type="text" name="number" id="number" placeholder=" e.g. 1234 5678 9123 0000">
+            <div class="error"></div>
+
+          </div>
+
+          <div class="form-group grid-element">
+            <div class="date-month">
+              <label for="month">  Exp. Date (MM/YY)</label>
+              <div class="month-year"> 
+              <input type="text" name="month" id="" placeholder="MM">
+              <input type="text" name="year" id="" placeholder="YY">
+            </div>
+            <div class="error"></div>
+            </div>
+            <div class="cvc">
+              <label for="cvc">   CVC</label>
+              <input type="text" name="cvc" id="" placeholder=" e.g. 123">
+              <div class="error"></div>
+            </div>
+          </div>
+          <button type="submit" id="sBtn">Confirm</button>
+        </form>
+        <div class="submitInfo" id="submitInfo">
+          <div class="img"><img src="images/icon-complete.svg" alt=""></div>
+        <div class="para">
+          <h1>THANK YOU !</h1>
+          <P>We've added your card details</P>
+        </div>
+        <button type="submit" id="sBtn">Continue</button>
+      </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <script src="/js/scrtip.js"></script>
+
+</body>
+
+</html>
