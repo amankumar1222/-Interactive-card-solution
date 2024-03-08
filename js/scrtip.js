@@ -2,7 +2,7 @@
 // const myForm = document.getElementById("myForm")
 // const sBtn = document.getElementById("sBtn")
 // const error = document.querySelectorAll(".error")
-// const mySpan = document.querySelectorAll(".number > h2 > span")
+// const mySpan = document.querySelectorAll(".number > h1 > span")
 // const names = document.querySelectorAll(".name > p")
 // const cv = document.querySelector(".cv")
 // const currentDate = new Date();
